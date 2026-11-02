@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Wedding Invitation | With Love</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="invite-page">
+
+    <main class="envelope-wrap">
+
+        <div class="floating-heart heart-one">♥</div>
+        <div class="floating-heart heart-two">♥</div>
+
+        <section class="envelope-card">
+
+            <p class="eyebrow">A little note, sealed with love</p>
+
+            <div class="ornament">❦</div>
+
+            <h1 class="script-heading">You're Invited</h1>
+
+            <p class="intro">
+                With hearts full of joy, we would love
+                to share our special day with you.
+            </p>
+
+            <div class="recipient-form">
+
+                <label for="guestName">Made especially for</label>
+
+                <input type="text" id="guestName" placeholder="Enter your name" maxlength="70" required>
+
+                <label for="guestAddress">Your address</label>
+
+                <textarea id="guestAddress" rows="3" placeholder="Enter your address" maxlength="220"
+                    required></textarea>
+
+                <p class="hint">
+                    Your details stay in this browser only.
+                </p>
+
+                <button class="btn btn-rose" id="openInvite" type="button">
+                    Open Your Invitation ♡
+                </button>
+
+                <p class="form-error" id="formError"></p>
+
+            </div>
+
+            <div class="bottom-flourish">
+                ✧ Together with love ✧
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
